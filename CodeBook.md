@@ -1,1 +1,79 @@
-# This is the Code Book.
+### Code Book describing variables for Getting and Cleaning Data Course Project
+
+SubjectNumber
+	1:30 Subjects are numbered 1 through 30
+
+ActivityLabel
+	1  WALKING
+	2  WALKING_UPSTAIRS
+	3  WALKING_DOWNSTAIRS
+	4  SITTING
+	5  STANDING
+	6  LAYING
+
+The measurements below either describe the mean (Mean) or standard deviation (Std) of frequency or time. They are either triaxial (X, Y, Z) acceleration as measured by the Accelorometer for the body or total acceleration or triaxial (X, Y, X) angular velocity as measured by the Gyroscope.
+
+The means are calculated for the following 62 measurements in the R script. The means are then stored in the txt file located in the repository along side the appropriate Subject Numbers and Activity Labels.
+
+timeBodyAccelerometerMeanX
+timeBodyAccelerometerMeanY
+timeBodyAccelerometerMeanZ
+timeBodyAccelerometerStdX
+timeBodyAccelerometerStdY
+timeBodyAccelerometerStdZ
+timeGravityAccelerometerMeanX
+timeGravityAccelerometerMeanY
+timeGravityAccelerometerMeanZ
+timeGravityAccelerometerStdX
+timeGravityAccelerometerStdY
+timeGravityAccelerometerStdZ
+timeBodyAccelerometerJerkMeanX
+timeBodyAccelerometerJerkMeanY     
+timeBodyAccelerometerJerkMeanZ
+timeBodyAccelerometerJerkStdX
+timeBodyAccelerometerJerkStdY
+timeBodyAccelerometerJerkStdZ
+timeBodyGyroscopeMeanX
+timeBodyGyroscopeMeanY
+timeBodyGyroscopeMeanZ
+timeBodyGyroscopeStdX
+timeBodyGyroscopeStdY
+timeBodyGyroscopeStdZ
+timeBodyGyroscopeJerkMeanX
+timeBodyGyroscopeJerkMeanY
+timeBodyGyroscopeJerkMeanZ
+timeBodyGyroscopeJerkStdX
+timeBodyGyroscopeJerkStdY
+timeBodyGyroscopeJerkStdZ
+timeBodyAccelerometerMagMean
+timeBodyAccelerometerMagStd
+timeGravityAccelerometerMagMean
+timeGravityAccelerometerMagStd
+timeBodyAccelerometerJerkMagMean
+timeBodyAccelerometerJerkMagStd
+timeBodyGyroscopeMagMean
+timeBodyGyroscopeMagStd
+timeBodyGyroscopeJerkMagMean
+timeBodyGyroscopeJerkMagStd 
+frequencyBodyAccelerometerMeanX
+frequencyBodyAccelerometerMeanY
+frequencyBodyAccelerometerMeanZ
+frequencyBodyAccelerometerStdX
+frequencyBodyAccelerometerStdY
+frequencyBodyAccelerometerStdZ
+frequencyBodyAccelerometerJerkMeanX
+frequencyBodyAccelerometerJerkMeanY
+frequencyBodyAccelerometerJerkMeanZ
+frequencyBodyAccelerometerJerkStdX
+frequencyBodyAccelerometerJerkStdY
+frequencyBodyAccelerometerJerkStdZ
+frequencyBodyGyroscopeMeanX
+frequencyBodyGyroscopeMeanY
+frequencyBodyGyroscopeMeanZ
+frequencyBodyGyroscopeStdX
+frequencyBodyGyroscopeStdY
+frequencyBodyGyroscopeStdZ
+frequencyBodyAccelerometerMagMean
+frequencyBodyAccelerometerMagStd
+frequencyBodyGyroscopeMagMean
+frequencyBodyGyroscopeMagStd
